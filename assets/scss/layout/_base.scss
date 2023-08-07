@@ -3,8 +3,12 @@
 // icon
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
 
+*,*:after,*:before{
+    box-sizing: border-box;
+}
 body{
     font-family:'Noto Sans TC','Roboto',sans-serif;
+    line-height: 1.5;
     a{
         text-decoration: none;
     }
@@ -12,5 +16,8 @@ body{
         vertical-align: middle;
         max-width: 100%;
         height: auto;
+    }
+    ul,ol{
+        list-style: none;
     }
 }
