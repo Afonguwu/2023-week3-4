@@ -4,53 +4,26 @@ header{
   @include pad{
     font-size: 20px;
   }
-  .container{
-    display: flex;
-    flex-direction: column;
-    @include pad{
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      padding:15px 36px;
-    }
-    @include pc{
-     padding: 15px;
-    }
+}
+.nav{
+  @include pad{
+    max-width: 492px;
   }
-  ul{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
+  li{
+    border: solid 1px $main-white;
     @include pad{
-      max-width: 492px;
-      justify-content: space-between;
-      flex-wrap: nowrap;
+      border: none;
     }
-    li{
-      border:1px solid #ffffff;
-      width: 50%;
-      text-align: center;
-      padding: 12px 0;
-      &:hover{
-        background-color: $main-brown;
-      }  
-      @include pad{
-        border: none;
-        width: 20%;
-        padding: 0;
-      }
-    }
-  }
-  h1{
-    img{
-      width: 80px;
-    }
-    padding: 4% 0 4% 4%;
-    @include pad{
-      padding: 0;
+    &:hover{
+      background-color: $main-brown;
     }
   }
   a{
     color: #ffffff;
+  }
+}
+h1{
+  img{
+    width: 80px;
   }
 }

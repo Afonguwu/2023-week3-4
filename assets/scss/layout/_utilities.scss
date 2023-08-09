@@ -1,5 +1,5 @@
 @mixin mobile{
-    @media(min-width:375px){
+    @media(min-width:576px){
         @content
     }
 };
@@ -9,17 +9,7 @@
     }
 };
 @mixin pc{
-    @media(min-width:1440px){
+    @media(min-width:992px){
         @content
     }
 };
-.container{
-    width: 100%;
-    margin: 0 auto;
-    @include pad{
-        max-width: 768px;
-    }
-    @include pc{
-        max-width: 1296px;
-    }
-}
