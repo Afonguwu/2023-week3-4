@@ -1,4 +1,57 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+footer{
+  background:$main-red;
+p{
+  margin-bottom: 0.5rem;
+}
+.footer-top-left{
+  width: 70%;
+  @include pad{
+  max-width: 464px;
+  }
+  // .footer-nav{
+  //   @include pad{
+  //   margin-bottom: 32px;
+  //   }
+  //   @include pc{
+  //     margin-bottom: 36px;
+  //   }
+  // }
+  span{
+    color: #ffffff;
+    font-size: 18px;
+    @include pad{
+      font-size: 36px;
+    }
+  }
+  p{
+    @include pad{
+      font-size: 36px;
+    }
+  }
+}
+
+}
+.footer-icon{
+  width: 25%;
+  @include pc{
+     width: 20%;
+  }
+  li{
+    width: 24px;
+    @include pad{
+      width: 40px;
+    }
+    @include pc{
+      width: 48px;
+    }
+  }
+  svg{
+    width: 100%;
+  }
+}
+.footer-doc{
+  width: 25%;
+  @include pc{
+    width: 18%;
+  }
 }
