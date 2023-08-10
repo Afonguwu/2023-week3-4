@@ -1,3 +1,45 @@
-.index-title {
-  font-size: 100px;
+.banner{
+  height: 396px;
+  background-image: url(../images/home-header-sm.png);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  color: $main-brown;
+  @include mobile{
+   height: 787px;
+  }
+  @include pc{
+  background-image: url(../images/home-header.png);
+  }
+  .container{
+    max-width: 346px;
+    margin: auto 14px;
+    @include pad{
+      max-width: 696px;
+      margin: auto 36px;
+    }
+    @include pc{
+      max-width: 1296px;
+    }
+  }
+  span{
+    font-size: 16px;
+    @include pad{
+      font-size: 36px;
+    }
+
+  }
+  p{
+    font-size: 24px;
+    @include pad{
+      font-size: 64px;
+    }
+  }
+  a{
+    background-color: $main-red;
+    padding: 6px 12px;
+    &:hover{
+      background-color: $main-brown;
+    }
+  }
 }
