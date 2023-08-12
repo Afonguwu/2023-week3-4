@@ -109,3 +109,41 @@ section{
     }
   }
 }
+
+.design{
+  background-image: url(../images/index-bg-sm.png);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  @include pc{
+    background-image: url(../images/index-bg.png);
+  }
+  .container{
+    margin: 0 auto;
+    max-width: 416px;
+    @include pad{
+      max-width: 696px;
+    }
+    @include pc{
+      max-width: 1296px;
+    }
+  }
+  p{
+    font-weight: bold;
+    color: $main-red;
+    font-size: 48px;
+    font-style: italic;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  ul{
+    @include pc{
+      width: 100%;
+    }
+    li{
+      @include pc{
+        width: 50%;
+      }
+    }
+  }
+}
