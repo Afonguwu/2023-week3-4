@@ -186,3 +186,35 @@ section{
     }
   }
 }
+
+.contact-us{
+  background-color: $main-pink;
+  .container{
+    margin: 0 auto;
+    max-width: 348px;
+    @include pad{
+      max-width: 576px;
+    }
+    @include pc{
+      max-width: 636px;
+    }
+  }
+  form{
+    input,textarea{
+      background-color: $main-pink;
+    &:active{
+      background-color: #fff;
+    }
+  }
+  button{
+    width: 100%;
+    background-color: $main-red;
+    @include pad{
+      max-width: 336px;
+    }
+    @include pc{
+      max-width: 416px;
+    }
+  }
+  }
+}
