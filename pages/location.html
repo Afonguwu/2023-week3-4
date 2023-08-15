@@ -10,7 +10,7 @@
     <%- include('./layout/header'); -%>
 
     <div class="container location-container">
-    <h2 class="location-title ps-3 fw-bold">
+    <h2 class="border-left-title ps-3 fw-bold">
       門市據點
     </h2>
 
@@ -128,8 +128,9 @@
       </li>`;
   });
   selectList.innerHTML=str;
-}
-
+};
+// 進頁面第一次渲染
+init(renderData);
 
       change.addEventListener("change",function(e){
       if(e.target.value ==="全部區域"){
