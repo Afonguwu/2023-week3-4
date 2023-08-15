@@ -28,21 +28,22 @@
 }
 
 .location-list{
+    width: 100%;
     padding-top: 24px;
     padding-bottom: 24px;
     @include pad{
         padding-top: 40px;
         padding-bottom: 40px;
     }
-    li{
-        width: 100%;
-        @include pad{
-            width: 48%;
-        }
-        @include pc{
-            width: 32%;
-        }
-    }
+    // li{
+    //     width: 100%;
+    //     @include pad{
+    //         width: 48%;
+    //     }
+    //     @include pc{
+    //         width: 30%;
+    //     }
+    // }
     img{
         width: 100%;
     }
