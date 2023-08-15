@@ -23,10 +23,20 @@
         margin-bottom: 38px;
     }
 }
+.py-40{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
 
 .red{
     color: $main-red;
+}
+.brown{
+    color: $main-brown;
+}
+.gray{
+    color:#555555;
 }
 
 .fz24{
@@ -34,4 +44,36 @@
 }
 .fz20{
     font-size: 20px;
+}
+
+// product、blog
+.pagination{
+    font-size: 1rem;
+    color: #000000;
+    :focus,:active,:hover{
+        background-color: #000000;
+    }
+    border-radius: 0;
+    margin-bottom: 64px;
+    @include pad{
+        margin-bottom: 80px;
+    }
+    
+    .page-link{
+        padding: 0.5rem  0.75rem;
+        border: 0;
+        color: #000000;
+        &:hover,&:focus,&:active{
+            color: #ffffff;
+        }
+    }
+    .page-item{
+        border: 1px solid #555555;
+    }
+    .page-item:first-child .page-link{
+        border-radius: 0;
+    }
+    .page-item:last-child .page-link{
+        border-radius: 0;
+    }
 }

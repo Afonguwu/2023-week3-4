@@ -1,0 +1,42 @@
+.blog-list{
+    width: 100%;
+    img,.blog-content{
+        width: 100%;
+        max-height: 208px;
+    }
+    li{
+        margin-bottom: 24px;
+    }
+    margin-bottom: 40px;
+    @include pad{
+        img,.blog-content{
+            width: 48.5%;
+        }
+        margin-bottom: 56px;
+    }
+    @include pc{
+        img,.blog-content{
+            max-height: 400px;
+        }
+        li{
+            margin-bottom: 60px;
+        }
+        margin-bottom: 644px;
+    }
+    h3{
+        font-size: 1.5rem;
+        @include pc{
+            font-size: 2rem;  
+        }
+    }
+    .card-text,.card-date{
+        @include pc{
+            font-size: 1.25rem;
+        }
+    }
+    button{
+        width: 101px;
+        height: 54px;
+        font-size: 36px;
+    }
+}
