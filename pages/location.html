@@ -9,9 +9,194 @@
   <body>
     <%- include('./layout/header'); -%>
 
-    <h1 class="index-title  text-danger">我是首頁</h1>
-  
+    <div class="container location-container">
+    <h2 class="location-title ps-3">
+      門市據點
+    </h2>
 
+    <!-- dropdown start-->
+    <div class="d-flex location-dropdown align-items-center">
+      <label for="form-select" class="me-2">選擇地區</label>
+      <select class="form-select" aria-label="Default select example" name="form-select">
+        <option selected value="1">全部區域</option>
+        <option value="2">台北市</option>
+        <option value="3">台中市</option>
+        <option value="4">高雄市</option>
+      </select>
+    </div>
+    <!-- dropdown end-->
+
+    <!-- location-list start-->
+    <ul class="location-list d-md-flex flex-md-wrap justify-content-md-between justify-content-lg-start">
+      <li class=" mb-4 " >
+        <img src="../assets/images/store-1.png" alt="台北中山旗艦店">
+        <h3 class="ps-4 py-2 shop-name mb-0">
+          台北中山旗艦店
+        </h3>
+        <div class="py-3  px-4 border-end border-start fz20">
+          <p class="d-flex">
+            <span class="material-symbols-outlined me-2">
+              call
+            </span>
+            <span class="d-block">
+            電話：(02)000-1234
+            </span>
+          </p>
+          <p class="d-flex">
+            <span class="material-symbols-outlined me-2">
+            schedule
+            </span>
+            <span class="d-block">
+            營業時間：10:00-21:00
+            </span>
+          </p>
+          <p class="d-flex mb-0">
+            <span class="material-symbols-outlined me-2">
+              location_on
+            </span>
+            <span class="d-block"> 
+              地址：台北市中山區南京東路25巷2-1號
+            </span> 
+          </p>
+        </div>
+        <button class="w-100 bg-dark py-3"><a class="link-white" href="">詳細資訊</a></button>
+      </li>
+      <li class=" mb-4 " >
+        <img src="../assets/images/store-2.png" alt="台北綠園店">
+        <h3 class="ps-4 py-2 shop-name mb-0">
+          台北綠園店
+        </h3>
+        <div class="py-3  px-4 border-end border-start fz20">
+          <p class="d-flex">
+            <span class="material-symbols-outlined me-2">
+              call
+            </span>
+            <span class="d-block">
+              電話：(02)000-2345
+            </span>
+          </p>
+          <p class="d-flex">
+            <span class="material-symbols-outlined me-2">
+            schedule
+            </span>
+            <span class="d-block">
+            營業時間：10:00-21:00
+            </span>
+          </p>
+          <p class="d-flex mb-0">
+            <span class="material-symbols-outlined me-2">
+              location_on
+            </span>
+            <span class="d-block"> 
+              地址：台北市中正區復興南路 132-1 號
+            </span> 
+          </p>
+        </div>
+        <button class="w-100 bg-dark py-3"><a class="link-white" href="">詳細資訊</a></button>
+      </li>
+      <li class=" mb-4 " >
+        <img src="../assets/images/store-3.png" alt="台中清水旗艦店">
+        <h3 class="ps-4 py-2 shop-name mb-0">
+          台中清水旗艦店
+        </h3>
+        <div class="py-3  px-4 border-end border-start fz20">
+          <p class="d-flex">
+            <span class="material-symbols-outlined me-2">
+              call
+            </span>
+            <span class="d-block">
+            電話：(02)000-1234
+            </span>
+          </p>
+          <p class="d-flex">
+            <span class="material-symbols-outlined me-2">
+            schedule
+            </span>
+            <span class="d-block">
+            營業時間：10:00-21:00
+            </span>
+          </p>
+          <p class="d-flex mb-0">
+            <span class="material-symbols-outlined me-2">
+              location_on
+            </span>
+            <span class="d-block"> 
+              地址：台中市清水區經南一路 23 號 8 樓
+            </span> 
+          </p>
+        </div>
+        <button class="w-100 bg-dark py-3"><a class="link-white" href="">詳細資訊</a></button>
+      </li>
+      <li class=" mb-4 " >
+        <img src="../assets/images/store-4.png" alt="高雄中正形象店">
+        <h3 class="ps-4 py-2 shop-name mb-0">
+          高雄中正形象店
+        </h3>
+        <div class="py-3  px-4 border-end border-start fz20">
+          <p class="d-flex">
+            <span class="material-symbols-outlined me-2">
+              call
+            </span>
+            <span class="d-block">
+            電話：(02)000-1234
+            </span>
+          </p>
+          <p class="d-flex">
+            <span class="material-symbols-outlined me-2">
+            schedule
+            </span>
+            <span class="d-block">
+            營業時間：10:00-21:00
+            </span>
+          </p>
+          <p class="d-flex mb-0">
+            <span class="material-symbols-outlined me-2">
+              location_on
+            </span>
+            <span class="d-block"> 
+              地址：高雄市苓雅區中正路 38 號 12 樓
+            </span> 
+          </p>
+        </div>
+        <button class="w-100 bg-dark py-3"><a class="link-white" href="">詳細資訊</a></button>
+      </li>
+      <li class=" mb-4 " >
+        <img src="../assets/images/store-5.png" alt="高雄夢時代店">
+        <h3 class="ps-4 py-2 shop-name mb-0">
+          高雄夢時代店
+        </h3>
+        <div class="py-3  px-4 border-end border-start fz20">
+          <p class="d-flex">
+            <span class="material-symbols-outlined me-2">
+              call
+            </span>
+            <span class="d-block">
+            電話：(02)000-1234
+            </span>
+          </p>
+          <p class="d-flex">
+            <span class="material-symbols-outlined me-2">
+            schedule
+            </span>
+            <span class="d-block">
+            營業時間：10:00-21:00
+            </span>
+          </p>
+          <p class="d-flex mb-0">
+            <span class="material-symbols-outlined me-2">
+              location_on
+            </span>
+            <span class="d-block"> 
+              地址：高雄市前鎮區中華一路 63 號 6 樓
+            </span> 
+          </p>
+        </div>
+        <button class="w-100 bg-dark py-3"><a class="link-white" href="">詳細資訊</a></button>
+      </li>
+    </ul>
+    <!-- location-list end-->
+
+  </div>
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>
