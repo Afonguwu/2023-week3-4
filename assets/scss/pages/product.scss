@@ -1,0 +1,103 @@
+.nav-tabs{
+    max-width: 1296px;
+    border: 0;
+    .nav-item{
+        width: 33%;
+        border: 1px solid #DCDCDC;
+        button{
+            width: 100%;
+            border-radius: 0;
+            border: 0;
+            &:focus{
+                border-bottom: 8px solid $main-red ;
+            }
+        }
+    }
+}
+.product-banner{
+    max-height: 296px; 
+    margin-bottom: 40px;
+    @include pad{
+        margin-bottom: 80px;
+    }
+}
+.product-title{
+    font-size: 24px;
+    margin-bottom: 24px;
+    @include pad{
+        margin-bottom: 32px;
+        p:first-child{
+            font-size: 42px;
+        }
+        p:last-child{
+            font-size: 32px;
+        }
+    }
+    
+}
+.product-list,.sunglasses-list{
+    margin-bottom: 40px;
+    img{
+        width: 100%;
+    }
+    li{
+        width: 100%;
+        margin-bottom: 24px;
+        @include pad{
+            width:48%;
+            margin-bottom: 40px;
+        }
+        @include pc{
+            width: 23%;
+        }
+    }
+}
+.sunglasses-list{
+    li{
+        @include pc{
+            width: 30%;
+        }
+    }
+}
+.color-box{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+}
+.color-box-bg1{
+    background-color: #5F3E2D;
+}
+.color-box-bg2{
+    background-color: #B75929;
+}
+
+.pagination{
+    font-size: 1rem;
+    color: #000000;
+    :focus,:active,:hover{
+        background-color: #000000;
+    }
+    border-radius: 0;
+    margin-bottom: 64px;
+    @include pad{
+        margin-bottom: 80px;
+    }
+    
+    .page-link{
+        padding: 0.75rem 1rem;
+        border: 0;
+        color: #000000;
+        &:hover,&:focus,&:active{
+            color: #ffffff;
+        }
+    }
+    .page-item{
+        border: 1px solid #555555;
+    }
+    .page-item:first-child .page-link{
+        border-radius: 0;
+    }
+    .page-item:last-child .page-link{
+        border-radius: 0;
+    }
+}

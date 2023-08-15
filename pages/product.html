@@ -9,11 +9,694 @@
   <body>
     <%- include('./layout/header'); -%>
 
-    <h1 class="index-title  text-danger">我是首頁</h1>
+    <ul class="nav nav-tabs w-100 p-0 my-0  mx-auto justify-content-center text-center fw-bold" id="myTab" role="tablist">
+      <li class="nav-item bg-transparent" role="presentation">
+        <button class="nav-link link-dark active py-3 py-md-4" id="optical-tab" data-bs-toggle="tab" data-bs-target="#optical-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">OPTICAL</button>
+      </li>
+      <li class="nav-item bg-transparent" role="presentation">
+        <button class="nav-link link-dark py-3 py-md-4" id="sunglasses-tab" data-bs-toggle="tab" data-bs-target="#sunglasses-tab-pane" type="button" role="tab" aria-controls="sunglasses-tab-pane" aria-selected="false">SUNGLASSES</button>
+      </li>
+      <li class="nav-item bg-transparent" role="presentation">
+        <button class="nav-link link-dark py-3 py-md-4" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">FUNCTIONAL</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <!-- optical-content start-->
+      <div class="tab-pane fade show active" id="optical-tab-pane" role="tabpanel" aria-labelledby="optical-tab" tabindex="0">
+        <!-- banner start-->
+        <!-- sm-banner -->
+        <div class="product-banner d-flex d-lg-none w-100">
+          <img class="w-50" src="../assets/images/product-header-sm-1.png" alt="optical">
+          <img class="w-50" src="../assets/images/product-header-sm-2.png" alt="model">
+        </div>
+        <!-- lg-banner -->
+        <div class="product-banner d-none d-lg-flex w-100">
+          <img class="w-50" src="../assets/images/product-header-1.png" alt="optical">
+          <img class="w-50" src="../assets/images/product-header-2.png" alt="model">
+        </div>
+        <!-- banner end-->
+        <main>
+          <div class="container">
+            <h2 class="text-center product-title">
+              <p>Celluloid Combi</p>
+              <p>賽璐珞鈦金屬混合鏡框</p>
+            </h2>
+          <!-- mobile-list -->
+            <ul class="product-list d-md-none">
+              <li>
+                <img src="../assets/images/product-1.png" alt="bj41600s">
+                <div>
+                  <div class="d-flex justify-content-between fz24">
+                    <span class="">BJ41600S</span>
+                    <span class="red">NTD3,490</span>
+                  </div>
+                  <p class="d-flex">
+                    <span class=" d-block color-box color-box-bg1 me-2"></span>
+                    <span class="d-block color-box color-box-bg2"></span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <img src="../assets/images/product-2.png" alt="bj41600s">
+                <div>
+                  <div class="d-flex justify-content-between fz24">
+                    <span class="">BJ41600S</span>
+                    <span class="red">NTD3,490</span>
+                  </div>
+                  <p class="d-flex">
+                    <span class=" d-block color-box color-box-bg1 me-2"></span>
+                    <span class="d-block color-box color-box-bg2"></span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <img src="../assets/images/product-3.png" alt="bj41600s">
+                <div>
+                  <div class="d-flex justify-content-between fz24">
+                    <span class="">BJ41600S</span>
+                    <span class="red">NTD3,490</span>
+                  </div>
+                  <p class="d-flex">
+                    <span class=" d-block color-box color-box-bg1 me-2"></span>
+                    <span class="d-block color-box color-box-bg2"></span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <img src="../assets/images/product-4.png" alt="bj41600s">
+                <div>
+                  <div class="d-flex justify-content-between fz24">
+                    <span class="">BJ41600S</span>
+                    <span class="red">NTD3,490</span>
+                  </div>
+                  <p class="d-flex">
+                    <span class=" d-block color-box color-box-bg1 me-2"></span>
+                    <span class="d-block color-box color-box-bg2"></span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <img src="../assets/images/product-5.png" alt="bj41600s">
+                <div>
+                  <div class="d-flex justify-content-between fz24">
+                    <span class="">BJ41600S</span>
+                    <span class="red">NTD3,490</span>
+                  </div>
+                  <p class="d-flex">
+                    <span class=" d-block color-box color-box-bg1 me-2"></span>
+                    <span class="d-block color-box color-box-bg2"></span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          
+          <!-- pad-list -->
+          <ul class="product-list d-none d-md-flex d-lg-none  justify-content-between w-100 flex-wrap">
+            <li>
+              <img src="../assets/images/product-1.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-2.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-3.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-4.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-5.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-6.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-7.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-8.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-9.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-10.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <!-- pc-list -->
+          <ul class="product-list d-none d-lg-flex  justify-content-between w-100 flex-wrap">
+            <li>
+              <img src="../assets/images/product-1.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-2.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-3.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-4.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-5.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-6.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-7.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-8.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-9.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-10.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-11.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-12.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+          </ul>
+
+            <!-- page-nav -->
+            <nav aria-label="Page navigation example mx-auto">
+              <ul class="pagination justify-content-center border-0">
+                <li class="page-item"><a class="page-link" href="#">上一頁</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">下一頁</a></li>
+              </ul>
+            </nav>
+          </div>
+        </main>
+      </div>
+      <!-- optical-content end-->
+      <!-- sunglasses-content start  -->
+      <div class="tab-pane fade" id="sunglasses-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        <!-- sm-banner -->
+        <div class="product-banner d-flex d-lg-none w-100">
+          <img class="w-50" src="../assets/images/product-header-sm-3.png" alt="optical">
+          <img class="w-50" src="../assets/images/product-header-sm-4.png" alt="model">
+        </div>
+        <!-- lg-banner -->
+        <div class="product-banner d-none d-lg-flex w-100">
+          <img class="w-50" src="../assets/images/product-header-3.png" alt="optical">
+          <img class="w-50" src="../assets/images/product-header-4.png" alt="model">
+        </div>
+        <!-- banner end-->
+        <main>
+          <div class="container">
+            <h2 class="text-center product-title">
+              <p>2020 NEW COLLECTION</p>
+              <p>賽璐珞鈦金屬混合鏡框</p>
+            </h2>
+          <!-- mobile-list -->
+            <ul class="product-list  sunglasses-list d-md-none">
+              <li>
+                <img src="../assets/images/product-7.png" alt="bj41600s">
+                <div>
+                  <div class="d-flex justify-content-between fz24">
+                    <span class="">BJ41600S</span>
+                    <span class="red">NTD3,490</span>
+                  </div>
+                  <p class="d-flex">
+                    <span class=" d-block color-box color-box-bg1 me-2"></span>
+                    <span class="d-block color-box color-box-bg2"></span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <img src="../assets/images/product-8.png" alt="bj41600s">
+                <div>
+                  <div class="d-flex justify-content-between fz24">
+                    <span class="">BJ41600S</span>
+                    <span class="red">NTD3,490</span>
+                  </div>
+                  <p class="d-flex">
+                    <span class=" d-block color-box color-box-bg1 me-2"></span>
+                    <span class="d-block color-box color-box-bg2"></span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <img src="../assets/images/product-9.png" alt="bj41600s">
+                <div>
+                  <div class="d-flex justify-content-between fz24">
+                    <span class="">BJ41600S</span>
+                    <span class="red">NTD3,490</span>
+                  </div>
+                  <p class="d-flex">
+                    <span class=" d-block color-box color-box-bg1 me-2"></span>
+                    <span class="d-block color-box color-box-bg2"></span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <img src="../assets/images/product-10.png" alt="bj41600s">
+                <div>
+                  <div class="d-flex justify-content-between fz24">
+                    <span class="">BJ41600S</span>
+                    <span class="red">NTD3,490</span>
+                  </div>
+                  <p class="d-flex">
+                    <span class=" d-block color-box color-box-bg1 me-2"></span>
+                    <span class="d-block color-box color-box-bg2"></span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <img src="../assets/images/product-11.png" alt="bj41600s">
+                <div>
+                  <div class="d-flex justify-content-between fz24">
+                    <span class="">BJ41600S</span>
+                    <span class="red">NTD3,490</span>
+                  </div>
+                  <p class="d-flex">
+                    <span class=" d-block color-box color-box-bg1 me-2"></span>
+                    <span class="d-block color-box color-box-bg2"></span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          
+          <!-- pad-list -->
+          <ul class="product-list  sunglasses-list d-none d-md-flex d-lg-none  justify-content-between w-100 flex-wrap">
+            <li>
+              <img src="../assets/images/product-7.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-8.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-9.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-10.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-11.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-12.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <!-- pc-list -->
+          <ul class="product-list  sunglasses-list d-none d-lg-flex  justify-content-between w-100 flex-wrap">
+            <li>
+              <img src="../assets/images/product-7.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-8.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-9.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-10.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-11.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="../assets/images/product-12.png" alt="bj41600s">
+              <div>
+                <div class="d-flex justify-content-between fz24">
+                  <span class="">BJ41600S</span>
+                  <span class="red">NTD3,490</span>
+                </div>
+                <p class="d-flex">
+                  <span class=" d-block color-box color-box-bg1 me-2"></span>
+                  <span class="d-block color-box color-box-bg2"></span>
+                </p>
+              </div>
+            </li>
+          </ul>
+
+            <!-- page-nav -->
+            <nav aria-label="Page navigation example mx-auto">
+              <ul class="pagination justify-content-center border-0">
+                <li class="page-item"><a class="page-link" href="#">上一頁</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">下一頁</a></li>
+              </ul>
+            </nav>
+          </div>
+        </main>
+      </div>
+      <!-- sunglasses-content end  -->
+      <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+      <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">123 
+      </div>
+    </div>
   
 
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>
+    
   </body>
 </html>
