@@ -1,27 +1,17 @@
 .blog-list{
     width: 100%;
-    img,.blog-content{
-        width: 100%;
-        max-height: 208px;
-    }
     li{
         margin-bottom: 24px;
     }
     margin-bottom: 40px;
     @include pad{
-        img,.blog-content{
-            width: 48.5%;
-        }
         margin-bottom: 56px;
     }
     @include pc{
-        img,.blog-content{
-            max-height: 400px;
-        }
         li{
             margin-bottom: 60px;
         }
-        margin-bottom: 644px;
+        margin-bottom: 64px;
     }
     h3{
         font-size: 1.5rem;
@@ -39,4 +29,5 @@
         height: 54px;
         font-size: 36px;
     }
+    
 }
