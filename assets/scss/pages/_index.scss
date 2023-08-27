@@ -261,6 +261,10 @@
       background-color: #fff;
     }
   }
+  textarea{
+    resize: none;
+    height: 136px;
+  }
   button{
     width: 100%;
     background-color: $main-red;

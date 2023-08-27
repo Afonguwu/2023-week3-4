@@ -1,8 +1,8 @@
 .nav-tabs{
     max-width: 1296px;
-    border: 0;
+    border: 1px solid #DCDCDC;
     .nav-item{
-        width: 33%;
+        width: 33.333%;
         border: 1px solid #DCDCDC;
         button{
             width: 100%;
@@ -12,6 +12,12 @@
                 border-bottom: 8px solid $main-red ;
             }
         }
+    }
+    @include pad{
+        font-size: 24px;
+    }
+    @include pc{
+        font-size: 32px;
     }
 }
 .product-banner{
