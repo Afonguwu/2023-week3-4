@@ -74,10 +74,20 @@
     .page-item{
         border: 1px solid #555555;
     }
-    .page-item:first-child .page-link{
+    .page-item:first-child {
+        &:hover{
+            background-color: #F2F2F2;
+        }
+        .page-link{
         border-radius: 0;
+     }
     }
-    .page-item:last-child .page-link{
-        border-radius: 0;
+    .page-item:last-child {
+        &:hover{
+            background-color: #F2F2F2;
+        }
+        .page-link{
+            border-radius: 0;
+        }
     }
 }
